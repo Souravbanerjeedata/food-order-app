@@ -1,3 +1,4 @@
+import Button from "./UI/Button.jsx";
 import logoImg from "../assets/logo.jpg";
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
       </div>
 
       <nav>
-        <button>Cart (0)</button>
+        <Button textOnly>Cart (0)</Button>
       </nav>
     </div>
   );
