@@ -19,7 +19,7 @@ const Meals = () => {
   return (
     <ul id="meals">
       {loadedMeals.map((meal) => (
-        <MealItem meal={meal} />
+        <MealItem key={meal.id} meal={meal} />
       ))}
     </ul>
   );
